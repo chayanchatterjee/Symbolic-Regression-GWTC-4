@@ -1,0 +1,21 @@
+Model: Linear
+
+Best symbolic equations
+  mu_chieff(z) = ((0.04785507963043595 - (x3 * 0.015735226933979857)) - ((x7 ^ (log(1.6858623935713657) / (x7 ^ x3))) * (0.00039050348188274914 / x7))) - -0.004164913364919633
+  log sigma_chieff(z) = ((x0 / 1.0499049258459998) ^ (1.005421141787663 ^ (x5 ^ (square(x2) ^ (((x8 ^ x4) * x3) ^ x1))))) + -2.704486354297169
+
+Median-curve diagnostics
+  mu_chieff: low-z slope=-0.0150394, high-z slope=-0.0162977, zero crossing=None, dmu/dz at z=1.0 = -0.0156375
+  log sigma_chieff: low-z slope=0.947514, high-z slope=0.958192, dlnsigma/dz at z=1.0 = 0.961579
+
+Posterior symbolic summaries
+  Pr[dmu/dz > 0 on low-z window]  = 0.3933
+  Pr[dmu/dz < 0 on low-z window]  = 0.6067
+  Pr[dmu/dz > 0 on high-z window] = 0.3933
+  Pr[dmu/dz < 0 on high-z window] = 0.6067
+  Pr[mu(z) crosses zero]          = 0.5600
+  median zero-crossing z          = 0.7669451342658102
+  dmu/dz at z=1.0: median=-0.0223789, 90% interval=[-0.130479, 0.0969914]
+  dlnsigma/dz at z=1.0: median=0.962086, 90% interval=[0.564393, 1.23361]
+  Pr[narrows toward high z]       = 0.0000
+  Pr[broadens toward high z]      = 1.0000

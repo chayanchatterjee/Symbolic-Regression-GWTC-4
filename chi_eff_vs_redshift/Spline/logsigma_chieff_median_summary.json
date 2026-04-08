@@ -1,0 +1,12 @@
+{
+  "model_name": "",
+  "target_name": "logsigma_chieff_median",
+  "equation": "(((((x7 ^ x0) ^ 1.2309316449200762) * (0.3363207761598406 ^ (x0 ^ x7))) * -0.9675521212904342) + -1.4906961316753102) - (x8 * 0.7275840932549927)",
+  "complexity": 19.0,
+  "train_mse": 3.1266490289647066e-05,
+  "test_mse": 4.563593488870867e-05,
+  "constant_test_mse": 0.16372693055440313,
+  "linear_test_mse": 0.1244583648253606,
+  "improvement_vs_constant": 0.9997212679995027,
+  "improvement_vs_linear": 0.9996333236825604
+}

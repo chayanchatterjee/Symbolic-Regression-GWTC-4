@@ -1,0 +1,3 @@
+model_name,target_name,pr_increasing_low_z,pr_decreasing_low_z,pr_increasing_high_z,pr_decreasing_high_z,pr_zero_crossing,median_zero_crossing_z,derivative_z1_median,derivative_z1_p05,derivative_z1_p95,pr_narrows_toward_high_z,pr_broadens_toward_high_z
+Linear,mu_chieff,0.3933333333333333,0.6066666666666667,0.3933333333333333,0.6066666666666667,0.56,0.7669451342658102,-0.02237892678493969,-0.1304789813343995,0.0969914143939228,,
+Linear,logsigma_chieff,1.0,0.0,1.0,0.0,0.0,,0.9620861165382855,0.5643930229749322,1.2336075192886296,0.0,1.0

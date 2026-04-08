@@ -1,0 +1,21 @@
+Model: Spline
+
+Best symbolic equations
+  mu_chieff(z) = (x3 + -3.657917289936121) * ((((x8 * 0.12441576620711176) + 0.012717095548110825) * (x0 + abs((x8 * -0.0376729114355761) - -0.026514532820206143))) + -0.02901071115477852)
+  log sigma_chieff(z) = ((x7 * 0.1485619426105284) * ((x8 * 1.6140823364398638) - ((x8 + 2.3084084470248754) - x5))) - ((x8 * 1.4528147439098549) + 1.500723056735231)
+
+Median-curve diagnostics
+  mu_chieff: low-z slope=-0.138186, high-z slope=-0.186222, zero crossing=1.2760826761516426, dmu/dz at z=1.0 = -0.0374492
+  log sigma_chieff: low-z slope=2.59935, high-z slope=-0.74572, dlnsigma/dz at z=1.0 = 0.0840962
+
+Posterior symbolic summaries
+  Pr[dmu/dz > 0 on low-z window]  = 0.2454
+  Pr[dmu/dz < 0 on low-z window]  = 0.7529
+  Pr[dmu/dz > 0 on high-z window] = 0.3637
+  Pr[dmu/dz < 0 on high-z window] = 0.6363
+  Pr[mu(z) crosses zero]          = 0.8467
+  median zero-crossing z          = 0.4879488462206501
+  dmu/dz at z=1.0: median=-0.0555318, 90% interval=[-0.492246, 0.290333]
+  dlnsigma/dz at z=1.0: median=0.123862, 90% interval=[-1.17904, 1.12753]
+  Pr[narrows toward high z]       = 0.3867
+  Pr[broadens toward high z]      = 0.6067

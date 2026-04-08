@@ -1,0 +1,12 @@
+{
+  "model_name": "",
+  "target_name": "mu_chieff_median",
+  "equation": "(((abs(-0.03491442784868468 + abs(square(x2) + -0.06529645054762757)) * -0.0008704353273993533) + -0.015718497267450678) * square(x6)) + 0.03624715708422296",
+  "complexity": 17.0,
+  "train_mse": 1.2012065949131638e-08,
+  "test_mse": 2.1526198263764267e-08,
+  "constant_test_mse": 8.096859430603292e-05,
+  "linear_test_mse": 5.337188731703958e-08,
+  "improvement_vs_constant": 0.9997341413859503,
+  "improvement_vs_linear": 0.5966753407857889
+}
